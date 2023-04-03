@@ -1,0 +1,132 @@
+/* Reset CSS para tirar todas as margens dos elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+/* Estilização do HEADER - Cabeçalho */
+.cabecalho{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cabecalho > img{
+    height: 60px;
+}
+.menu{
+    display: flex;
+}
+.menu > li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.menu > li:hover {
+    background-color: darkred;
+}
+.menu > li > a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+/* Eslizando nosso banner */
+.banner {
+    background-image: url(../img/pizza.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 3px 10px darkgreen;
+}
+.banner > h1 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 30px;
+}
+.botao-vazado{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.botao-vazado:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+h2{
+text-align: center;
+color: green;
+margin: 10px;
+}
+
+hr{
+    background: linear-gradient(90deg, rgba(235,11,35,0.40948879551820727) 0%, rgba(201,83,33,0.7736344537815126) 50%, rgba(121,105,9,0.05654761904761907) 99%);
+    margin: auto;
+    margin-top: 5px;
+    width: 600px;
+    height: 5px;
+}
+p{
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    }
+
+.sabores{
+        display: flex;
+        flex-wrap: wrap
+    }
+    .sabor{
+        background-color: green;
+        margin: 10px;
+        border-radius: 5px;
+    }
+.nome{
+    background-color: green;
+    margin: 4px;
+    border-radius: 7px;
+    color: aliceblue;
+}
+
+.valor{
+    background-color: yellow;
+    margin: 2px;
+    border: 5px;
+    margin: 8px;
+    color: black;
+}
+
+    .promocoes{
+        display: flex;
+        overflow: scroll;
+    }
+
+    .rodape{
+        background-color: red;
+        padding-left:20px;
+        padding-right: 15px;
+        color: white;
+        justify-content: space-between;
+        display: flex;
+    }
+
+  
